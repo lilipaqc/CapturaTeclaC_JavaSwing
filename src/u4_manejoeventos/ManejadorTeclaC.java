@@ -49,7 +49,7 @@ public class ManejadorTeclaC implements KeyListener {
         
         //si la lista tiene elementos, se alternará la selección
         if (!model.isEmpty()) {
-            int index = 0; // <-- índice del elemento que quieres alternar (0 = primero, 1 = segundo, etc.)
+            int index = 0; // índice del elemento 
             
             //Para alternar la selección del elemento
             if (lista.isSelectedIndex(index)) {
